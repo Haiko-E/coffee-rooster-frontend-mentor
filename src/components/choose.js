@@ -21,6 +21,8 @@ export default function Choose() {
           paragraph='Discover an endless variety of the world’s best artisan coffee from each of our roasters.'
           listStyle={styles['list-item']}
           contentStyle={styles.content}
+          width={70}
+          height={70}
         />
         <CollectionItem
           title='Exclusive benefits'
@@ -29,6 +31,8 @@ export default function Choose() {
           '
           listStyle={styles['list-item']}
           contentStyle={styles.content}
+          width={70}
+          height={70}
         />
         <CollectionItem
           title='Free shipping '
@@ -36,6 +40,8 @@ export default function Choose() {
           paragraph='We cover the cost and coffee is delivered fast. Peak freshness: guaranteed.'
           listStyle={styles['list-item']}
           contentStyle={styles.content}
+          width={70}
+          height={70}
         />
       </ul>
     </section>

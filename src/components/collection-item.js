@@ -8,10 +8,12 @@ export default function CollectionItem({
   image,
   listStyle,
   contentStyle,
+  width = 452,
+  height = 356,
 }) {
   return (
     <li className={`${styles.item} ${listStyle}`}>
-      <Image src={image} alt='gran espresso' width={452} height={356} />
+      <Image src={image} alt={title} width={width} height={height} />
       <div className={`${styles.content} ${contentStyle}`}>
         <h3>{title}</h3>
         <p>{paragraph}</p>
