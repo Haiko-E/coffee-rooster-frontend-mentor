@@ -87,10 +87,7 @@ export default function Plan() {
           num='05'
         />
       </ul>
-      <form
-        onSubmit={form.onSubmit((values) => console.log(values))}
-        className={`${styles.plan} spacing`}
-      >
+      <form onSubmit={form.onSubmit()} className={`${styles.plan} spacing`}>
         <Disclosure>
           {({ open }) => {
             return (

@@ -18,6 +18,7 @@ export default function Modal({ form, setShowModal }) {
         ...formData.values,
         subscription: `${price}/${formData.values.deliver}`,
       };
+      console.log(data);
       form.reset();
       setSending(true);
 
@@ -43,7 +44,6 @@ export default function Modal({ form, setShowModal }) {
       setDelivery('month');
       setPrice(calcPrice[2]);
     }
-    console.log(calcPrice);
   }, []);
 
   function onCloseHandler() {
