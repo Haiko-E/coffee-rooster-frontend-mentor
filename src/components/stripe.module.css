@@ -1,0 +1,34 @@
+.item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.bullet {
+  display: block;
+  border: 2px solid hsl(var(--clr-dark-green));
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.stripe {
+  margin-right: -3rem;
+  overflow: visible;
+  flex: 1;
+  display: block;
+
+  height: 2px;
+  background-color: hsl(var(--clr-pink));
+}
+
+@container works (max-width: 650px) {
+  .stripe {
+    display: none;
+  }
+
+  .bullet {
+    display: none;
+  }
+}

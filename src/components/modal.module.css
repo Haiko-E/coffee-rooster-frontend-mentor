@@ -1,0 +1,69 @@
+.modal {
+  position: relative;
+}
+
+.backdrop {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 200;
+}
+
+.container {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 300;
+}
+
+.panel {
+  overflow: hidden;
+  border-radius: 1rem;
+  max-width: 400px;
+  background-color: hsl(var(--clr-white));
+  width: 100%;
+}
+
+.panel h2 {
+  font-size: var(--fz-lg);
+  color: hsl(var(--clr-white));
+  padding: 2rem;
+  background-color: hsl(var(--clr-prim));
+  text-align: center;
+}
+
+.description {
+  padding: 2rem;
+}
+
+.checkout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.checkout p {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: var(--fz-md);
+  color: hsl(var(--clr-prim));
+}
+
+div .summary {
+  background-color: transparent;
+  padding: 0;
+}
+
+div .summary blockquote {
+  font-family: inherit;
+
+  padding-bottom: 1rem;
+  color: hsl(var(--clr-sec));
+}
+
+div .summary ~ p {
+  font-size: 0.8rem;
+  padding-bottom: 1rem;
+}

@@ -1,0 +1,14 @@
+@container (max-width: 700px) {
+  .head {
+    width: 11ch;
+    font-size: var(--fz-lg);
+  }
+
+  .content {
+    max-width: 24ch;
+  }
+}
+
+.image img {
+  min-height: 400px;
+}

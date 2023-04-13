@@ -1,0 +1,33 @@
+.plan-item {
+  padding: 1.6rem;
+  border-radius: 1rem;
+  background-color: hsl(var(--clr-sec), 0.2);
+  list-style: none;
+  display: block;
+}
+
+.input {
+  display: none;
+}
+
+.input:checked ~ .plan-item {
+  background-color: hsl(var(--clr-dark-green));
+  color: hsl(var(--clr-white));
+}
+.input:checked ~ .plan-item h5 {
+  color: hsl(var(--clr-white));
+}
+.input:checked ~ .plan-item p {
+  color: hsl(var(--clr-white));
+}
+
+.plan-item h5 {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  color: hsl(var(--clr-prim));
+}
+
+.plan-item:hover {
+  cursor: pointer;
+  background-color: hsl(var(--clr-pink));
+}

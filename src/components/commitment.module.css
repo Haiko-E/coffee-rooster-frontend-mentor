@@ -1,0 +1,36 @@
+.commitment {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+.content {
+  margin: 0 5rem;
+  place-self: center;
+}
+
+.content h2 {
+  color: hsl(var(--clr-prim));
+  font-size: var(--fz-lg);
+  margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .commitment {
+    grid-template-columns: 1fr 1.8fr;
+  }
+
+  .content {
+    margin: 0 3rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .commitment {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto;
+  }
+
+  .content {
+    margin: 2rem 3rem;
+  }
+}

@@ -1,0 +1,16 @@
+.table-item {
+  display: flex;
+  gap: 2rem;
+}
+
+.number {
+  font-size: var(--fz-md);
+  font-weight: 700;
+  color: inherit;
+}
+
+.title {
+  font-size: var(--fz-md);
+  font-weight: 700;
+  color: hsl(var(--clr-prim));
+}

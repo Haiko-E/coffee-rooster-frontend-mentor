@@ -1,0 +1,18 @@
+.summary {
+  padding: 1.8rem;
+  background-color: hsl(var(--clr-prim));
+}
+.summary > p {
+  margin-bottom: 1.8rem;
+}
+
+.summary blockquote {
+  letter-spacing: 0.5px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: hsl(var(--clr-white));
+}
+
+.summary blockquote span {
+  color: hsl(var(--clr-dark-green));
+}

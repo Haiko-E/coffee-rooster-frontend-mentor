@@ -1,0 +1,13 @@
+.plan img {
+  min-height: 250px;
+}
+
+.plan h1 {
+  font-size: var(--fz-xl);
+}
+
+@media only screen and (max-width: 900px) {
+  .plan h1 {
+    font-size: var(--fz-lg);
+  }
+}

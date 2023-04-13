@@ -1,0 +1,38 @@
+.works {
+  width: 100%;
+  padding: 5rem;
+  background-color: hsl(var(--clr-prim));
+  border-radius: 1rem;
+}
+
+.works p {
+  color: hsl(var(--clr-white));
+}
+
+.works h3 {
+  color: hsl(var(--clr-white));
+}
+
+@media screen and (max-width: 900px) {
+  .works {
+    transform: translateX(-2rem);
+    width: calc(100% + 4rem);
+    padding: 2rem;
+  }
+
+  .works span {
+    font-size: var(--fz-xl);
+  }
+
+  .works h3 {
+    font-size: var(--fz-md);
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .works {
+    transform: translateX(0);
+    width: 100%;
+    padding: 2rem;
+  }
+}

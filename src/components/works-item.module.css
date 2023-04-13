@@ -1,0 +1,28 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.item span {
+  display: inline-block;
+  font-size: var(--fz-2xl);
+  color: hsl(var(--clr-pink));
+  font-weight: 900;
+}
+
+.item h3 {
+  font-size: var(--fz-lg);
+  color: hsl(var(--clr-prim));
+}
+
+.item p {
+  color: hsl(var(--clr-prim));
+}
+
+@container works (max-width: 550px) {
+  .item {
+    align-items: center;
+    text-align: center;
+  }
+}
