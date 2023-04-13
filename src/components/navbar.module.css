@@ -35,8 +35,9 @@
     flex-direction: column;
     align-items: center;
     gap: 2rem;
-
     top: 60px;
+    left: 0px;
+    right: 0px;
     opacity: 0;
     font-size: var(--fz-md);
     overflow: hidden;
