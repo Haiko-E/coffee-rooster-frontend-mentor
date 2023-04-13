@@ -1,6 +1,7 @@
 import React from 'react';
 import WorksItem from './works-item';
 import styles from './works.module.css';
+import Link from 'next/link';
 
 export default function Works({ title, button, className }) {
   return (
@@ -30,7 +31,11 @@ export default function Works({ title, button, className }) {
           world-class coffees curated to provide a distinct tasting experience.'
         />
       </ul>
-      {button && <div className='btn'>{button}</div>}
+      {button && (
+        <Link href={'/plan'} className='btn'>
+          {button}
+        </Link>
+      )}
     </section>
   );
 }

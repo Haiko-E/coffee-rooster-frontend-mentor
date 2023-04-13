@@ -2,6 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 import styles from './hero.module.css';
 import Card from './card';
+import Link from 'next/link';
 
 export default function Hero() {
   return (
@@ -16,7 +17,9 @@ export default function Hero() {
         artisan coffees from our best roasters delivered directly to your door, at
         your schedule.
       </p>
-      <button className='btn'>Create your plan</button>
+      <Link href={'/plan'} className='btn'>
+        Create your plan
+      </Link>
     </Card>
   );
 }

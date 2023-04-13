@@ -55,6 +55,7 @@ p {
 
 .btn {
   width: fit-content;
+  text-decoration: none;
   font-family: inherit;
   border: none;
   font-weight: 600;
