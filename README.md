@@ -1,5 +1,7 @@
 # Frontend Mentor - Coffeeroasters subscription site solution
 
+This is my Solution to the Coffeeroasters subscription site. Check it out and please leave me some comments if you got some.
+
 This is a solution to the [Coffeeroasters subscription site challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/coffeeroasters-subscription-site-5Fc26HVY6). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
@@ -27,7 +29,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./public/preview.jpg)
 
 ### Links
 
