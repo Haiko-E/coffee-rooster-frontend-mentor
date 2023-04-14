@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Haiko-E/coffee-rooster-frontend-mentor)
-- Live Site URL: [Add live site URL here](https://jovial-piroshki-60d738.netlify.app/)
+- Solution URL: [Github link](https://github.com/Haiko-E/coffee-rooster-frontend-mentor)
+- Live Site URL: [URL](https://jovial-piroshki-60d738.netlify.app/)
 
 ## My process
 
