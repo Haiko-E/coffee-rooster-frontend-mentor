@@ -11,10 +11,17 @@ export default function Card({
   spacing = true,
   backdrop = true,
   className,
+  priority = false,
 }) {
   return (
     <section className={`${styles.card} ${spacing ? 'spacing' : ''} ${className} `}>
-      <Image src={imageSrc} alt={imageAlt} width={imageWidth} height={imageHeight} />
+      <Image
+        priority={priority}
+        src={imageSrc}
+        alt={imageAlt}
+        width={imageWidth}
+        height={imageHeight}
+      />
       <div
         className={`${backdrop ? styles.backdrop : ''} ${
           children ? styles.content : ''

@@ -10,6 +10,7 @@ export default function Hero() {
       imageSrc={'/assets/home/desktop/image-hero-coffeepress.jpg'}
       imageAlt={'Coffee Hero'}
       className={styles.image}
+      priority={true}
     >
       <h1 className={styles.head}>Great Coffee made simple.</h1>
       <p>
