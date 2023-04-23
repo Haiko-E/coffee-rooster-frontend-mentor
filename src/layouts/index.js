@@ -6,7 +6,7 @@ export default function Layout({ children, className }) {
   return (
     <>
       <Head>
-        <link rel='favicon Haiko' href='favicon.svg' />
+        <link rel='favicon Haiko' href='/favicon.svg' />
       </Head>
       <Navbar className={className} />
       <main>{children}</main>
